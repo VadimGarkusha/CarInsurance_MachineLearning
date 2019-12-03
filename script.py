@@ -321,7 +321,7 @@ parameters = {
 clf_dt = get_best_model(dt,parameters)
 model_fit(model=clf_lg, feature_imp=False)
 
-print('\n\n3B')
+print('\n\n4B')
 # Compare model performance
 clfs= [clf_lg, clf_dt]
 index =['Logistic Regression','Decision Tree']
