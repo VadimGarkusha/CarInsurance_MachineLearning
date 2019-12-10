@@ -22,8 +22,8 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Read-in train and test datasets
-train = pd.read_csv('/Users/vadimgarkusha/Desktop/College/Data Warehouse/data/carInsurance_train.csv')
-test = pd.read_csv('/Users/vadimgarkusha/Desktop/College/Data Warehouse/data/carInsurance_test.csv')
+train = pd.read_csv('/Users/13hea/Desktop/CarInsurance_MachineLearning/data/carInsurance_train.csv')
+test = pd.read_csv('/Users/13hea/Desktop/CarInsurance_MachineLearning/data/carInsurance_test.csv')
 
 print('1A')
 print('The train dataset has %d observations and %d features' % (train.shape[0], train.shape[1]))
